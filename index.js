@@ -35,7 +35,7 @@ function init() {
 
     // 3Dモデルの読み込み
     const objLoader = new THREE.OBJLoader();
-    objLoader.load('C:\Users\manato\Desktop\minami005obj.obj', function (obj) {
+    objLoader.load('minami005obj.obj', function (obj) {
         scene.add(obj);
         obj.position.set(-50, -100, 0);
     });
